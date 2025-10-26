@@ -154,6 +154,7 @@ task :start do
   FileUtils.mkdir_p logdir
   cmd = ["java", "-XX:PermSize=512M", "-XX:MaxPermSize=512M", "-Xmn128M", "-Xms512M", "-Xmx512M", "-Djava.io.tmpdir=#{javatmp}", "-jar", WAR_LOCATION]
   cmd << "--httpPort=#{httpPort}"
+  cmd << "--httpListenAddress=0.0.0.0"
   cmd << "--ajp13Port=#{ajp13Port}"
   cmd << "--logfile=#{logdir}/jenkins.log"
   puts "#{cmd.join(" ")}\n"

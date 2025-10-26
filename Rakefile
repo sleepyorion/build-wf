@@ -9,8 +9,7 @@ def build_root
 end
 
 def mirror
-  #"http://mirrors.jenkins-ci.org"
-  "http://mirror.xmission.com/jenkins"
+  "https://get.jenkins.io"
 end
 
 def oneops
@@ -18,8 +17,7 @@ def oneops
 end
 
 def updates
-  #"http://updates.jenkins-ci.org/stable"
-  "http://mirror.xmission.com/jenkins/updates"
+  "https://updates.jenkins.io"
 end
 
 def version

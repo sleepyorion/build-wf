@@ -21,7 +21,7 @@ def updates
 end
 
 def version
-  "1.642.4"
+  "2.479.1"
 end
 
 ENV['JENKINS_HOME'] = build_root

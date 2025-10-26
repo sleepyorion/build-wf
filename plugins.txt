@@ -1,4 +1,4 @@
-icon-shim:2.0
+icon-shim:2.0.3
 credentials:2.6.1
 plain-credentials:1.7
 ssh-credentials:1.19
